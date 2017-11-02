@@ -79,20 +79,20 @@
 
 
 
-<meta name="description" content="1. 标题（用#号,最多支持六级）# 一级标题 ###### 六级标题 2.有序列表和无序列表（1.）（*或-）1. 1    * 1    - 1 2. 2    * 2    - 2 3. 3    * 3    - 3 3.引用（&amp;gt;）&amp;gt; &amp;gt;&amp;gt; &amp;gt;&amp;gt;&amp;gt; 勤快 4.插入图片（alt指找不到图片所展示的内容，http指图片地址（图片地址必须是一个图床），t">
+<meta name="description" content="前言最近搭建了这个博客，因为需要码字又需要注意格式，在别人的推荐之下，接触到了Markdown,Markdown语言简单易学并且使用起来比Html轻松。以下，我总结了一些常用的标签。 一、标题# 一级标题 ###### 六级标题">
 <meta name="keywords" content="Markdown">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Markdown总结">
+<meta property="og:title" content="初识Markdown">
 <meta property="og:url" content="http://yoursite.com/2017/10/25/first/index.html">
-<meta property="og:site_name" content="李昱洁的博客">
-<meta property="og:description" content="1. 标题（用#号,最多支持六级）# 一级标题 ###### 六级标题 2.有序列表和无序列表（1.）（*或-）1. 1    * 1    - 1 2. 2    * 2    - 2 3. 3    * 3    - 3 3.引用（&amp;gt;）&amp;gt; &amp;gt;&amp;gt; &amp;gt;&amp;gt;&amp;gt; 勤快 4.插入图片（alt指找不到图片所展示的内容，http指图片地址（图片地址必须是一个图床），t">
+<meta property="og:site_name" content="Abel的博客">
+<meta property="og:description" content="前言最近搭建了这个博客，因为需要码字又需要注意格式，在别人的推荐之下，接触到了Markdown,Markdown语言简单易学并且使用起来比Html轻松。以下，我总结了一些常用的标签。 一、标题# 一级标题 ###### 六级标题">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://img16.3lian.com/gif2016/q2/5/69.jpg">
 <meta property="og:image" content="https://dn-coding-net-production-static.qbox.me/07359add-1a84-4c32-827e-271b1d9a6eac.jpg?imageMogr2/auto-orient/format/jpeg/crop/!240x240a0a0">
-<meta property="og:updated_time" content="2017-11-01T16:03:20.867Z">
+<meta property="og:updated_time" content="2017-11-02T02:42:22.947Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Markdown总结">
-<meta name="twitter:description" content="1. 标题（用#号,最多支持六级）# 一级标题 ###### 六级标题 2.有序列表和无序列表（1.）（*或-）1. 1    * 1    - 1 2. 2    * 2    - 2 3. 3    * 3    - 3 3.引用（&amp;gt;）&amp;gt; &amp;gt;&amp;gt; &amp;gt;&amp;gt;&amp;gt; 勤快 4.插入图片（alt指找不到图片所展示的内容，http指图片地址（图片地址必须是一个图床），t">
+<meta name="twitter:title" content="初识Markdown">
+<meta name="twitter:description" content="前言最近搭建了这个博客，因为需要码字又需要注意格式，在别人的推荐之下，接触到了Markdown,Markdown语言简单易学并且使用起来比Html轻松。以下，我总结了一些常用的标签。 一、标题# 一级标题 ###### 六级标题">
 <meta name="twitter:image" content="http://img16.3lian.com/gif2016/q2/5/69.jpg">
 
 
@@ -129,7 +129,7 @@
 
 
 
-  <title>Markdown总结 | 李昱洁的博客</title>
+  <title>初识Markdown | Abel的博客</title>
   
 
 
@@ -159,7 +159,7 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">李昱洁的博客</span>
+        <span class="site-title">Abel的博客</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -262,26 +262,22 @@
   
     <div class="site-search">
       
-  
-  <div class="algolia-popup popup search-popup">
-    <div class="algolia-search">
-      <div class="algolia-search-input-icon">
-        <i class="fa fa-search"></i>
-      </div>
-      <div class="algolia-search-input" id="algolia-search-input"></div>
-    </div>
-
-    <div class="algolia-results">
-      <div id="algolia-stats"></div>
-      <div id="algolia-hits"></div>
-      <div id="algolia-pagination" class="algolia-pagination"></div>
-    </div>
-
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
     <span class="popup-btn-close">
       <i class="fa fa-times-circle"></i>
     </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
   </div>
-
+  <div id="local-search-result"></div>
+</div>
 
 
 
@@ -317,13 +313,13 @@
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/25/first/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="李昱洁">
+      <meta itemprop="name" content="Abel">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/uploads/psb.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="李昱洁的博客">
+      <meta itemprop="name" content="Abel的博客">
     </span>
 
     
@@ -331,7 +327,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Markdown总结</h1>
+          <h1 class="post-title" itemprop="name headline">初识Markdown</h1>
         
 
         <div class="post-meta">
@@ -383,7 +379,7 @@
 
           
           
-             <span id="/2017/10/25/first/" class="leancloud_visitors" data-flag-title="Markdown总结">
+             <span id="/2017/10/25/first/" class="leancloud_visitors" data-flag-title="初识Markdown">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -414,27 +410,28 @@
       
 
       
-        <h2 id="1-标题（用-号-最多支持六级）"><a href="#1-标题（用-号-最多支持六级）" class="headerlink" title="1. 标题（用#号,最多支持六级）"></a>1. 标题（用#号,最多支持六级）</h2><pre><code># 一级标题
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>最近搭建了这个博客，因为需要码字又需要注意格式，在别人的推荐之下，接触到了Markdown,Markdown语言简单易学并且使用起来比Html轻松。以下，我总结了一些常用的标签。</p>
+<h2 id="一、标题"><a href="#一、标题" class="headerlink" title="一、标题"></a>一、标题</h2><pre><code># 一级标题
 ###### 六级标题
-</code></pre><h2 id="2-有序列表和无序列表（1-）（-或-）"><a href="#2-有序列表和无序列表（1-）（-或-）" class="headerlink" title="2.有序列表和无序列表（1.）（*或-）"></a>2.有序列表和无序列表（1.）（*或-）</h2><pre><code>1. 1    * 1    - 1
+</code></pre><a id="more"></a>
+<h2 id="二、有序列表和无序列表"><a href="#二、有序列表和无序列表" class="headerlink" title="二、有序列表和无序列表"></a>二、有序列表和无序列表</h2><pre><code>1. 1    * 1    - 1
 2. 2    * 2    - 2
 3. 3    * 3    - 3
-</code></pre><h2 id="3-引用（-gt-）"><a href="#3-引用（-gt-）" class="headerlink" title="3.引用（&gt;）"></a>3.引用（&gt;）</h2><pre><code>&gt;
+</code></pre><h2 id="三、引用"><a href="#三、引用" class="headerlink" title="三、引用"></a>三、引用<span id="jump"></span></h2><pre><code>&gt;
 &gt;&gt;
 &gt;&gt;&gt;
-</code></pre><p><span id="jump">勤快</span></p>
-<h2 id="4-插入图片（alt指找不到图片所展示的内容，http指图片地址（图片地址必须是一个图床），title指竖表悬停展示的文字和图片下方的文字）"><a href="#4-插入图片（alt指找不到图片所展示的内容，http指图片地址（图片地址必须是一个图床），title指竖表悬停展示的文字和图片下方的文字）" class="headerlink" title="4.插入图片（alt指找不到图片所展示的内容，http指图片地址（图片地址必须是一个图床），title指竖表悬停展示的文字和图片下方的文字）"></a>4.插入图片（alt指找不到图片所展示的内容，http指图片地址（图片地址必须是一个图床），title指竖表悬停展示的文字和图片下方的文字）</h2><pre><code>语法:![alt](http &quot;title&quot;)
+</code></pre><h2 id="四、插入图片-alt指找不到图片所展示的内容，http指图片地址（图片地址必须是一个图床），title指竖表悬停展示的文字和图片下方的文字"><a href="#四、插入图片-alt指找不到图片所展示的内容，http指图片地址（图片地址必须是一个图床），title指竖表悬停展示的文字和图片下方的文字" class="headerlink" title="四、插入图片(alt指找不到图片所展示的内容，http指图片地址（图片地址必须是一个图床），title指竖表悬停展示的文字和图片下方的文字)"></a>四、插入图片(alt指找不到图片所展示的内容，http指图片地址（图片地址必须是一个图床），title指竖表悬停展示的文字和图片下方的文字)</h2><pre><code>语法:![alt](http &quot;title&quot;)
 例子:![飞到火星去了...](http://img16.3lian.com/gif2016/q2/5/69.jpg &quot;向日葵&quot;)
 </code></pre><center><img src="http://img16.3lian.com/gif2016/q2/5/69.jpg" alt="飞到火星去了..." title="向日葵"></center>
 
-<h2 id="5-插入链接（链接地址必须加http-前缀）"><a href="#5-插入链接（链接地址必须加http-前缀）" class="headerlink" title="5.插入链接（链接地址必须加http://前缀）"></a>5.插入链接（链接地址必须加<a href="http://前缀）" target="_blank" rel="external">http://前缀）</a></h2><pre><code>语法:[文字描述](链接)
+<h2 id="五、插入链接-链接地址必须加http-前缀"><a href="#五、插入链接-链接地址必须加http-前缀" class="headerlink" title="五、插入链接(链接地址必须加http://前缀)"></a>五、插入链接(链接地址必须加<a href="http://前缀" target="_blank" rel="external">http://前缀</a>)</h2><pre><code>语法:[文字描述](链接)
 例子:[跳到百度](Https://www.baidu.com)
 </code></pre><p><a href="https://www.baidu.com" target="_blank" rel="external">跳到百度</a></p>
-<h2 id="6-粗体与斜体删除线"><a href="#6-粗体与斜体删除线" class="headerlink" title="6.粗体与斜体删除线"></a>6.粗体与斜体删除线</h2><pre><code>**粗体**
+<h2 id="六、粗体与斜体删除线"><a href="#六、粗体与斜体删除线" class="headerlink" title="六、粗体与斜体删除线"></a>六、粗体与斜体删除线</h2><pre><code>**粗体**
 *斜体*
 ~~删除线
 例子：**这是粗体**    *这是斜体*     ~~删除线~~
-</code></pre><h2 id="7-表格（：在右表示右对齐）"><a href="#7-表格（：在右表示右对齐）" class="headerlink" title="7.表格（：在右表示右对齐）"></a>7.表格（：在右表示右对齐）</h2><pre><code>|id|cost|pay|
+</code></pre><h2 id="七、表格-：在右表示右对齐"><a href="#七、表格-：在右表示右对齐" class="headerlink" title="七、表格(：在右表示右对齐)"></a>七、表格(：在右表示右对齐)</h2><pre><code>|id|cost|pay|
 |---|---:|---:|
 |100|100.1|100.2|
 </code></pre><table>
@@ -453,31 +450,31 @@
 </tr>
 </tbody>
 </table>
-<h2 id="8-行内代码（-）"><a href="#8-行内代码（-）" class="headerlink" title="8.行内代码（`  `）"></a>8.行内代码（`  `）</h2><p>  这是行内<code>public</code></p>
-<h2 id="9-代码块（-）"><a href="#9-代码块（-）" class="headerlink" title="9.代码块（``` ```）"></a>9.代码块（``` ```）</h2><pre><code>public 
+<h2 id="八、行内代码"><a href="#八、行内代码" class="headerlink" title="八、行内代码(`  `)"></a>八、行内代码(`  `)</h2><p>  这是行内<code>public</code></p>
+<h2 id="九、代码块"><a href="#九、代码块" class="headerlink" title="九、代码块(``` ```)"></a>九、代码块(``` ```)</h2><pre><code>public 
 private
-</code></pre><h2 id="10-分割线（-或-lt-h-r-gt-）"><a href="#10-分割线（-或-lt-h-r-gt-）" class="headerlink" title="10.分割线（***或&lt; h r&gt;）"></a>10.分割线（***或&lt; h r&gt;）</h2><hr>
-<h2 id="11-自动链接（-lt-gt-）"><a href="#11-自动链接（-lt-gt-）" class="headerlink" title="11.自动链接（\&lt;&gt;）"></a>11.自动链接（\&lt;&gt;）</h2><pre><code>模式：&lt;&gt;
+</code></pre><h2 id="十、分割线-或-lt-h-r-gt"><a href="#十、分割线-或-lt-h-r-gt" class="headerlink" title="十、分割线(***或&lt; h r&gt;)"></a>十、分割线(***或&lt; h r&gt;)</h2><hr>
+<h2 id="十一、自动链接"><a href="#十一、自动链接" class="headerlink" title="十一、自动链接"></a>十一、自动链接</h2><pre><code>模式：&lt;&gt;
 例子：&lt;Abel_jie@outlook.com&gt;
-</code></pre><p><a href="&#x6d;&#97;&#x69;&#x6c;&#116;&#x6f;&#58;&#x41;&#x62;&#101;&#108;&#95;&#106;&#105;&#x65;&#x40;&#x6f;&#117;&#x74;&#x6c;&#111;&#x6f;&#107;&#x2e;&#x63;&#111;&#x6d;">&#x41;&#x62;&#101;&#108;&#95;&#106;&#105;&#x65;&#x40;&#x6f;&#117;&#x74;&#x6c;&#111;&#x6f;&#107;&#x2e;&#x63;&#111;&#x6d;</a></p>
-<h2 id="12-描点"><a href="#12-描点" class="headerlink" title="12.描点"></a>12.描点</h2><pre><code>调用语法：[你好](#jump)
+</code></pre><p><a href="&#109;&#97;&#105;&#x6c;&#116;&#111;&#x3a;&#x41;&#98;&#101;&#108;&#95;&#106;&#105;&#101;&#x40;&#x6f;&#x75;&#x74;&#x6c;&#x6f;&#x6f;&#107;&#46;&#99;&#x6f;&#109;">&#x41;&#98;&#101;&#108;&#95;&#106;&#105;&#101;&#x40;&#x6f;&#x75;&#x74;&#x6c;&#x6f;&#x6f;&#107;&#46;&#99;&#x6f;&#109;</a></p>
+<h2 id="十二、描点"><a href="#十二、描点" class="headerlink" title="十二、描点"></a>十二、描点</h2><pre><code>调用语法：[你好](#jump)
 描点位置：&lt;span id = &quot;jump&quot;&gt;hehe&lt;/span&gt;
 </code></pre><p><a href="#jump">你好</a></p>
-<h2 id="13-引用代码块里引用其他markdown语法"><a href="#13-引用代码块里引用其他markdown语法" class="headerlink" title="13.引用代码块里引用其他markdown语法"></a>13.引用代码块里引用其他markdown语法</h2><pre><code>&gt;这是一段代码
+<h2 id="十三、引用代码块里引用其他markdown语法"><a href="#十三、引用代码块里引用其他markdown语法" class="headerlink" title="十三、引用代码块里引用其他markdown语法"></a>十三、引用代码块里引用其他markdown语法</h2><pre><code>&gt;这是一段代码
 &gt;
 &gt;     return null
 </code></pre><blockquote>
 <p>这是一段代码</p>
 <pre><code>return null
 </code></pre></blockquote>
-<h2 id="14-注脚-求解"><a href="#14-注脚-求解" class="headerlink" title="14.注脚(求解)"></a>14.注脚(求解)</h2><pre><code>这是一个注脚测试[^footer1]。
+<h2 id="十四、注脚"><a href="#十四、注脚" class="headerlink" title="十四、注脚"></a>十四、注脚</h2><pre><code>这是一个注脚测试[^footer1]。
 [^footer1]: 这是一个测试，用来阐释注脚。
-</code></pre><h2 id="15-定义型列表-求解"><a href="#15-定义型列表-求解" class="headerlink" title="15.定义型列表(求解)"></a>15.定义型列表(求解)</h2><pre><code>Markdown
+</code></pre><h2 id="十五、定义型列表-Markdown-Extra"><a href="#十五、定义型列表-Markdown-Extra" class="headerlink" title="十五、定义型列表(Markdown　Extra)"></a>十五、定义型列表(Markdown　Extra)</h2><pre><code>Markdown
 : markdown是一款轻量级的文本语言。
-</code></pre><p>参考文档<a href="http://blog.csdn.net/lovekun_03/article/details/62424294" target="_blank" rel="external">http://blog.csdn.net/lovekun_03/article/details/62424294</a></p>
+</code></pre><p>参考文献:<br><a href="http://alfred-sun.github.io/markdown-syntax-zhtw/" target="_blank" rel="external">Markdown官文中译版</a></p>
 <p><hr><br> <center><img src="https://dn-coding-net-production-static.qbox.me/07359add-1a84-4c32-827e-271b1d9a6eac.jpg?imageMogr2/auto-orient/format/jpeg/crop/!240x240a0a0" alt="李昱洁的个人微信公众号二维码飞到火星去了..." title="李昱洁的个人微信公众号，功能正在开发中。"></center><br><center>扫码关注，共同进步<br><center>个人博客: <a href="http://www.xiaojie87.com" target="_blank" rel="external">http://www.xiaojie87.com</a></center><br></center></p>
 <blockquote>
-<p>本文欢迎转载，但是希望注明出处并给出原文链接。<br>如果你有任何疑问，欢迎在下方评论区留言，我会尽快答复。<br>如果你喜欢或者不喜欢这篇文章，欢迎你发邮件到<a href="&#x6d;&#x61;&#105;&#108;&#x74;&#111;&#58;&#x41;&#98;&#101;&#x6c;&#x5f;&#106;&#x69;&#101;&#64;&#x6f;&#x75;&#x74;&#x6c;&#111;&#x6f;&#x6b;&#46;&#x63;&#x6f;&#109;">&#x41;&#98;&#101;&#x6c;&#x5f;&#106;&#x69;&#101;&#64;&#x6f;&#x75;&#x74;&#x6c;&#111;&#x6f;&#x6b;&#46;&#x63;&#x6f;&#109;</a>或者是在下方留言，告诉我您的想法，您的建议对我非常重要。</p>
+<p>本文欢迎转载，但是希望注明出处并给出原文链接。<br>如果你有任何疑问，欢迎在下方评论区留言，我会尽快答复。<br>如果你喜欢或者不喜欢这篇文章，欢迎你发邮件到<a href="&#109;&#x61;&#x69;&#x6c;&#116;&#111;&#x3a;&#65;&#98;&#x65;&#x6c;&#x5f;&#x6a;&#105;&#x65;&#64;&#111;&#117;&#x74;&#108;&#x6f;&#111;&#x6b;&#x2e;&#x63;&#x6f;&#109;">&#65;&#98;&#x65;&#x6c;&#x5f;&#x6a;&#105;&#x65;&#64;&#111;&#117;&#x74;&#108;&#x6f;&#111;&#x6b;&#x2e;&#x63;&#x6f;&#109;</a>或者是在下方留言，告诉我您的想法，您的建议对我非常重要。</p>
 </blockquote>
 
       
@@ -515,8 +512,8 @@ private
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/10/25/python1/" rel="prev" title="Python入门">
-                Python入门 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/10/25/reg/" rel="prev" title="常用的正则表达式">
+                常用的正则表达式 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -589,9 +586,9 @@ private
             
               <img class="site-author-image" itemprop="image"
                 src="/uploads/psb.jpg"
-                alt="李昱洁" />
+                alt="Abel" />
             
-              <p class="site-author-name" itemprop="name">李昱洁</p>
+              <p class="site-author-name" itemprop="name">Abel</p>
               <p class="site-description motion-element" itemprop="description">男儿生来不停歇</p>
           </div>
 
@@ -602,7 +599,7 @@ private
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -613,7 +610,7 @@ private
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -624,7 +621,7 @@ private
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -659,7 +656,7 @@ private
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-标题（用-号-最多支持六级）"><span class="nav-number">1.</span> <span class="nav-text">1. 标题（用#号,最多支持六级）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-有序列表和无序列表（1-）（-或-）"><span class="nav-number">2.</span> <span class="nav-text">2.有序列表和无序列表（1.）（*或-）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-引用（-gt-）"><span class="nav-number">3.</span> <span class="nav-text">3.引用（>）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-插入图片（alt指找不到图片所展示的内容，http指图片地址（图片地址必须是一个图床），title指竖表悬停展示的文字和图片下方的文字）"><span class="nav-number">4.</span> <span class="nav-text">4.插入图片（alt指找不到图片所展示的内容，http指图片地址（图片地址必须是一个图床），title指竖表悬停展示的文字和图片下方的文字）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-插入链接（链接地址必须加http-前缀）"><span class="nav-number">5.</span> <span class="nav-text">5.插入链接（链接地址必须加http://前缀）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-粗体与斜体删除线"><span class="nav-number">6.</span> <span class="nav-text">6.粗体与斜体删除线</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-表格（：在右表示右对齐）"><span class="nav-number">7.</span> <span class="nav-text">7.表格（：在右表示右对齐）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#8-行内代码（-）"><span class="nav-number">8.</span> <span class="nav-text">8.行内代码（`  `）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#9-代码块（-）"><span class="nav-number">9.</span> <span class="nav-text">9.代码块（``` ```）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#10-分割线（-或-lt-h-r-gt-）"><span class="nav-number">10.</span> <span class="nav-text">10.分割线（***或< h r>）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#11-自动链接（-lt-gt-）"><span class="nav-number">11.</span> <span class="nav-text">11.自动链接（\<>）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#12-描点"><span class="nav-number">12.</span> <span class="nav-text">12.描点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#13-引用代码块里引用其他markdown语法"><span class="nav-number">13.</span> <span class="nav-text">13.引用代码块里引用其他markdown语法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#14-注脚-求解"><span class="nav-number">14.</span> <span class="nav-text">14.注脚(求解)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#15-定义型列表-求解"><span class="nav-number">15.</span> <span class="nav-text">15.定义型列表(求解)</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#一、标题"><span class="nav-number">2.</span> <span class="nav-text">一、标题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、有序列表和无序列表"><span class="nav-number">3.</span> <span class="nav-text">二、有序列表和无序列表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三、引用"><span class="nav-number">4.</span> <span class="nav-text">三、引用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#四、插入图片-alt指找不到图片所展示的内容，http指图片地址（图片地址必须是一个图床），title指竖表悬停展示的文字和图片下方的文字"><span class="nav-number">5.</span> <span class="nav-text">四、插入图片(alt指找不到图片所展示的内容，http指图片地址（图片地址必须是一个图床），title指竖表悬停展示的文字和图片下方的文字)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#五、插入链接-链接地址必须加http-前缀"><span class="nav-number">6.</span> <span class="nav-text">五、插入链接(链接地址必须加http://前缀)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#六、粗体与斜体删除线"><span class="nav-number">7.</span> <span class="nav-text">六、粗体与斜体删除线</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#七、表格-：在右表示右对齐"><span class="nav-number">8.</span> <span class="nav-text">七、表格(：在右表示右对齐)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#八、行内代码"><span class="nav-number">9.</span> <span class="nav-text">八、行内代码(`  `)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#九、代码块"><span class="nav-number">10.</span> <span class="nav-text">九、代码块(``` ```)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#十、分割线-或-lt-h-r-gt"><span class="nav-number">11.</span> <span class="nav-text">十、分割线(***或< h r>)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#十一、自动链接"><span class="nav-number">12.</span> <span class="nav-text">十一、自动链接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#十二、描点"><span class="nav-number">13.</span> <span class="nav-text">十二、描点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#十三、引用代码块里引用其他markdown语法"><span class="nav-number">14.</span> <span class="nav-text">十三、引用代码块里引用其他markdown语法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#十四、注脚"><span class="nav-number">15.</span> <span class="nav-text">十四、注脚</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#十五、定义型列表-Markdown-Extra"><span class="nav-number">16.</span> <span class="nav-text">十五、定义型列表(Markdown　Extra)</span></a></li></ol></div>
             
 
           </div>
@@ -683,7 +680,7 @@ private
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">李昱洁 
+  <span class="author" itemprop="copyrightHolder">Abel 
   
   <div class="powered-by"><a class="theme-link" target="_blank" href="http://www.andyqian.com/">【点击】学习榜样的力量</a></div>
  </span>
@@ -1189,19 +1186,6 @@ private
   </script>
 
 
-
-
-  
-  
-  
-  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
-
-  
-  
-  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
-  
-
-  <script src="/js/src/algolia-search.js?v=5.1.3"></script>
 
 
 

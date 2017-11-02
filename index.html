@@ -81,13 +81,13 @@
 
 <meta name="description" content="男儿生来不停歇">
 <meta property="og:type" content="website">
-<meta property="og:title" content="李昱洁的博客">
+<meta property="og:title" content="Abel的博客">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="李昱洁的博客">
+<meta property="og:site_name" content="Abel的博客">
 <meta property="og:description" content="男儿生来不停歇">
 <meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="李昱洁的博客">
+<meta name="twitter:title" content="Abel的博客">
 <meta name="twitter:description" content="男儿生来不停歇">
 
 
@@ -124,7 +124,7 @@
 
 
 
-  <title>李昱洁的博客</title>
+  <title>Abel的博客</title>
   
 
 
@@ -155,7 +155,7 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">李昱洁的博客</span>
+        <span class="site-title">Abel的博客</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -258,26 +258,22 @@
   
     <div class="site-search">
       
-  
-  <div class="algolia-popup popup search-popup">
-    <div class="algolia-search">
-      <div class="algolia-search-input-icon">
-        <i class="fa fa-search"></i>
-      </div>
-      <div class="algolia-search-input" id="algolia-search-input"></div>
-    </div>
-
-    <div class="algolia-results">
-      <div id="algolia-stats"></div>
-      <div id="algolia-hits"></div>
-      <div id="algolia-pagination" class="algolia-pagination"></div>
-    </div>
-
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
     <span class="popup-btn-close">
       <i class="fa fa-times-circle"></i>
     </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
   </div>
-
+  <div id="local-search-result"></div>
+</div>
 
 
 
@@ -313,13 +309,13 @@
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/25/reg/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="李昱洁">
+      <meta itemprop="name" content="Abel">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/uploads/psb.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="李昱洁的博客">
+      <meta itemprop="name" content="Abel的博客">
     </span>
 
     
@@ -413,12 +409,8 @@
 
       
         
-          
-          1. 验证用户名和密码 （&quot;^[a-zA-Z]\w{5,15}$&quot;）
-2. 验证电话号码（&quot;^(\d{3,4}-)\d{7,8}$&quot;）
-3. 验证手机号码&quot;^1[3|4|5|7|8][0-9]{9}$&quot;
-4. 验证身份证号（15位或18位数
-          ...
+          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>日常工作中，需要用到一些表单、数据校验的正则表达式，因此在网上收集了一些常用的正则表达式，以作备用。</p>
+<h2 id="一、验证用户名和密码"><a href="#一、验证用户名和密码" class="headerlink" title="一、验证用户名和密码"></a>一、验证用户名和密码</h2><p><code>（&quot;^[a-zA-Z]\w{5,15}$&quot;）</code></p>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2017/10/25/reg/#more" rel="contents">
@@ -472,364 +464,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/25/python2/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="李昱洁">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/uploads/psb.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="李昱洁的博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/10/25/python2/" itemprop="url">Python进阶</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-25T10:27:35Z">
-                2017-10-25
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Python/" itemprop="url" rel="index">
-                    <span itemprop="name">Python</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Python/进阶/" itemprop="url" rel="index">
-                    <span itemprop="name">进阶</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2017/10/25/python2/" class="leancloud_visitors" data-flag-title="Python进阶">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数&#58;</span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          
-扫码关注，共同进步个人博客: http://www.xiaojie87.com
-
-
-本文欢迎转载，但是希望注明出处并给出原文链接。如果你有任何疑问，欢迎在下方评论区留言，我会尽快答复。如果你喜欢或者不喜欢这篇文章，欢迎你发邮件到&#65;&#x62;&#101;&#108;&#x5f;&#106;
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/10/25/python2/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/25/python1/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="李昱洁">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/uploads/psb.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="李昱洁的博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/10/25/python1/" itemprop="url">Python入门</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-25T10:27:10Z">
-                2017-10-25
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Python/" itemprop="url" rel="index">
-                    <span itemprop="name">Python</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Python/入门/" itemprop="url" rel="index">
-                    <span itemprop="name">入门</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2017/10/25/python1/" class="leancloud_visitors" data-flag-title="Python入门">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数&#58;</span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          
-扫码关注，共同进步个人博客: http://www.xiaojie87.com
-
-
-本文欢迎转载，但是希望注明出处并给出原文链接。如果你有任何疑问，欢迎在下方评论区留言，我会尽快答复。如果你喜欢或者不喜欢这篇文章，欢迎你发邮件到&#65;&#98;&#x65;&#x6c;&#x5f;&#x6a;&
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/10/25/python1/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/25/first/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="李昱洁">
+      <meta itemprop="name" content="Abel">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/uploads/psb.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="李昱洁的博客">
+      <meta itemprop="name" content="Abel的博客">
     </span>
 
     
@@ -839,7 +483,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/10/25/first/" itemprop="url">Markdown总结</a></h1>
+                <a class="post-title-link" href="/2017/10/25/first/" itemprop="url">初识Markdown</a></h1>
         
 
         <div class="post-meta">
@@ -891,7 +535,7 @@
 
           
           
-             <span id="/2017/10/25/first/" class="leancloud_visitors" data-flag-title="Markdown总结">
+             <span id="/2017/10/25/first/" class="leancloud_visitors" data-flag-title="初识Markdown">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -923,17 +567,10 @@
 
       
         
-          
-          1. 标题（用#号,最多支持六级）# 一级标题
+          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>最近搭建了这个博客，因为需要码字又需要注意格式，在别人的推荐之下，接触到了Markdown,Markdown语言简单易学并且使用起来比Html轻松。以下，我总结了一些常用的标签。</p>
+<h2 id="一、标题"><a href="#一、标题" class="headerlink" title="一、标题"></a>一、标题</h2><pre><code># 一级标题
 ###### 六级标题
-2.有序列表和无序列表（1.）（*或-）1. 1    * 1    - 1
-2. 2    * 2    - 2
-3. 3    * 3    - 3
-3.引用（&gt;）&gt;
-&gt;&gt;
-&gt;&gt;&gt;
-
-          ...
+</code></pre>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2017/10/25/first/#more" rel="contents">
@@ -1011,9 +648,9 @@
             
               <img class="site-author-image" itemprop="image"
                 src="/uploads/psb.jpg"
-                alt="李昱洁" />
+                alt="Abel" />
             
-              <p class="site-author-name" itemprop="name">李昱洁</p>
+              <p class="site-author-name" itemprop="name">Abel</p>
               <p class="site-description motion-element" itemprop="description">男儿生来不停歇</p>
           </div>
 
@@ -1024,7 +661,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -1035,7 +672,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -1046,7 +683,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -1089,7 +726,7 @@
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">李昱洁 
+  <span class="author" itemprop="copyrightHolder">Abel 
   
   <div class="powered-by"><a class="theme-link" target="_blank" href="http://www.andyqian.com/">【点击】学习榜样的力量</a></div>
  </span>
@@ -1591,19 +1228,6 @@
   </script>
 
 
-
-
-  
-  
-  
-  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
-
-  
-  
-  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
-  
-
-  <script src="/js/src/algolia-search.js?v=5.1.3"></script>
 
 
 
